@@ -23,11 +23,7 @@ int main(){
     for(int i=0;i<temp;i++){
         val*=2;
     }
-    k--;
-      while(k>0){
-        val+=2;
-        k--;
-      }
+    val+=2*(k-1);
       cout<<val<<endl;
 }
 }
